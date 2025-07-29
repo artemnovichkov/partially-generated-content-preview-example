@@ -3,7 +3,7 @@
 An example project for [Working with partially generated content in Xcode previews](https://www.artemnovichkov.com//blog/working-with-partially-generated-content-in-xcode-previews) blog post.
 
 <p align="center">
-  <img src=".github/preview.gif" width="80%"/>
+  <img src=".github/preview.gif" width="30%"/>
 </p>
 
 ## Author
