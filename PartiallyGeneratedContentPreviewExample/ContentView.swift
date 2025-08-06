@@ -23,7 +23,7 @@ struct ContentView: View {
                         "Generate a cute rescue cat"
                     }
                     for try await catProfile in stream {
-                        self.catProfile = catProfile
+                        self.catProfile = catProfile.content
                     }
                 } catch {
                     print("Error generating cat profile: \(error)")
