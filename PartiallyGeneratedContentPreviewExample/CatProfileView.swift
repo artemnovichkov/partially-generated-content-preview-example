@@ -44,7 +44,7 @@ struct CatProfileView: View {
     VStack(spacing: 8) {
         ForEach(jsons, id: \.self) { json in
             let content = try! GeneratedContent(json: json)
-            CatProfileView(catProfile: try! .init(content))
+            CatProfileView(catProfile: try! CatProfile.PartiallyGenerated(content))
         }
     }
 }
